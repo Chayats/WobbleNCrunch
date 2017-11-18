@@ -11,7 +11,7 @@ public class Breakable : MonoBehaviour
     void Start()
     {
         breakforce = 5f;
-        isBreakable = true;
+      //  isBreakable = true;
     }
 
     void OnCollisionEnter(Collision collision)
